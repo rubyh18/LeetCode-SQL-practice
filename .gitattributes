@@ -1,5 +1,0 @@
-# Auto detect text files and perform LF normaliza
-select firstname, lastname, city, state
-from Person
-left join Address
-on person.personId = Address.personId;
